@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% == AIT CSIM Handout LaTeX Template ==
+% == Credit ==
+% Assoc. Prof. Matthew N. Dailey
+% Computer Science and Information Management
+% Asian Insitute of Technology
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+\usepackage{a4,url,upquote}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+\usepackage{placeins}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\footskip}{0.5in}
+
+\newcommand{\bheading}[1]{\vspace{10pt} \noindent \textbf{#1}}
+
+\begin{document}
+
+\begin{tabbing}
+    \`\=\kill
+    \textbf{Workshop:} Workshop Name
+    \` September 11, 2015 \\
+    Asian Institute of Technology
+    \` Computer Science and Information Management \\
+    \textbf{Handout:} Workshop Title
+    \` \textbf{Instructor:} Matthew N.\ Dailey (\tt{\small mdailey@ait.asia})
+\end{tabbing}
+
+\hrule
+
+\vspace{.25in}
+
+\begin{center}
+    \textbf{\Large Workshop Title}
+\end{center}
+
+\vspace{.15in}
+
+\noindent \textbf{Instructions:} In this workshop, you will learn how to do something.
+
+% Inserting a tilde into LaTeX
+% Credit:
+% http://tex.stackexchange.com/questions/9363/how-does-one-insert-a-backslash-or-a-tilde-into-latex
+
+\subsection*{Section 1}
+
+\begin{itemize}
+    \item[-] {\tt code} - Folder that contains code and scripts
+    \begin{itemize}
+        \item[-] File {\tt workshop1.py}
+        \item[-] File {\tt workshop2.py}
+    \end{itemize}
+    \item[-] {\tt data} -- Folder that contains the datasets.
+    \begin{itemize}
+        \item[-] {\tt input} -- Folder that contains the input images.
+        \begin{itemize}
+            \item[-] {\tt folder\_1} -- Folder that contains some files.
+            \item[-] {\tt folder\_2} -- Folder that contains some other files.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\FloatBarrier
+
+\subsection*{Section 2}
+
+\noindent We will do a simple workshop. Figure~\ref{fig:csim-logo} shows
+a logo of CSIM. \\
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=2in]{figures/csim}
+    \caption{CSIM Logo}
+    \label{fig:csim-logo}
+\end{figure}
+
+\noindent Let's follow these steps below.
+
+\begin{enumerate}
+    \item Step 1
+    \item Step 2
+    \item Step 3
+\end{enumerate}
+
+\noindent The logo of CSIM is from the CSIM Web site~[1]. \\
+
+\subsection*{References}
+
+\begin{itemize}
+  \item[1] \tt{http://www.cs.ait.ac.th/}
+\end{itemize}
+
+\end{document}
